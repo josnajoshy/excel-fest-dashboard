@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Excel Fest Dashboard</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <section id="hero" style="text-align: center; padding: 3rem 1rem; background: linear-gradient(90deg, #6a11cb, #2575fc); color: white;">
+  <h1 style="font-size: 2.5rem; margin-bottom: 0.5rem;">Welcome to Excel Fest 2025!</h1>
+  <p style="font-size: 1.2rem;">Where code, creativity & collaboration collide ✨</p>
+  </section>
+  <header>
+    <h1>🎉 Excel Fest Dashboard</h1>
+    <button id="toggle-theme">Toggle Theme</button>
+  </header>
+
+  <section id="countdown">
+    <h2>⏳ Countdown to Excel Fest</h2>
+    <div id="timer">Loading...</div>
+  </section>
+  <section id="highlights">
+  <h2>🌟 Highlights</h2>
+  <div style="display: flex; flex-wrap: wrap; gap: 1rem;">
+    <div style="flex: 1; min-width: 250px; background: #eef2f7; padding: 1rem; border-radius: 8px;">
+      <h3>💡 Tech Talk</h3>
+      <p>Hear from industry experts on the future of AI, cloud computing, and more.</p>
+    </div>
+    <div style="flex: 1; min-width: 250px; background: #eef2f7; padding: 1rem; border-radius: 8px;">
+      <h3>🎨 Design Marathon</h3>
+      <p>Show off your design chops in a creative sprint for digital glory.</p>
+    </div>
+    <div style="flex: 1; min-width: 250px; background: #eef2f7; padding: 1rem; border-radius: 8px;">
+      <h3>🎯 Code Golf</h3>
+      <p>Solve problems with the shortest, quirkiest code possible. Tiny but mighty!</p>
+    </div>
+  </div>
+  </section>
+
+  <section id="events">
+  <h2>📅 Event Schedule</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Event</th>
+        <th>Time</th>
+        <th>Location</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Hackathon</td>
+        <td>10:00 AM</td>
+        <td>Main Hall</td>
+      </tr>
+      <tr>
+        <td>Design Marathon</td>
+        <td>11:30 AM</td>
+        <td>Lab 2</td>
+      </tr>
+      <tr>
+        <td>Quiz Bowl</td>
+        <td>1:00 PM</td>
+        <td>Room 5</td>
+      </tr>
+      <tr>
+        <td>Tech Talk</td>
+        <td>2:00 PM</td>
+        <td>Auditorium</td>
+      </tr>
+      <tr>
+        <td>Code Golf</td>
+        <td>3:00 PM</td>
+        <td>Lab 1</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+  <section id="events">
+  <h2>📅 Event Registration</h2>
+  <label for="event-select">Choose an event to register:</label>
+  <select id="event-select">
+    <option value="">--Select an event--</option>
+    <option value="hackathon">Hackathon (10:00 AM - Main Hall)</option>
+    <option value="tech-talk">Tech Talk (2:00 PM - Auditorium)</option>
+    <option value="design-marathon">Design Marathon (11:30 AM - Lab 2)</option>
+    <option value="quiz-bowl">Quiz Bowl (1:00 PM - Room 5)</option>
+    <option value="code-golf">Code Golf (3:00 PM - Lab 1)</option>
+  </select>
+
+  <form id="registration-form">
+    <h3>Register for an Event</h3>
+    <label for="name">Name:</label>
+    <input type="text" id="name" required /><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" required /><br>
+
+    <button type="submit">Submit</button>
+  </form>
+</section>
+<section id="testimonials">
+    <h2>❤️ What Participants Say</h2>
+    <blockquote style="font-style: italic; border-left: 5px solid #6a11cb; padding-left: 1rem;">
+      “Excel Fest was the perfect blend of geekery and fun. I made new friends, learned a ton, and had a blast!” – Aishwarya, 2024 Participant
+    </blockquote>
+    <blockquote style="font-style: italic; border-left: 5px solid #2575fc; padding-left: 1rem;">
+      “The Hackathon pushed me to think fast, work smart, and code boldly. 10/10!” – Aryan, Developer
+    </blockquote>
+  </section>
+
+  <section id="prizes">
+    <h2>🏆 Prizes to Win</h2>
+    <ul>
+      <li>₹10,000 Cash Prize for Hackathon Champions</li>
+      <li>Exclusive Mentorship & Internship Opportunities</li>
+      <li>Goodie Bags, Swag Kits, and Surprise Hampers</li>
+    </ul>
+  </section>
+
+  <section id="venue">
+  <h2>📍 Find Us</h2>
+  <p>The fest is hosted at Model Engineering College (MEC), Thrikkakara, Kochi.</p>
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3931.195602087173!2d76.32711811428744!3d10.030079492827543!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080c9bafc9e2e3%3A0xabc1b63f11683ad1!2sModel%20Engineering%20College%2C%20Thrikkakara!5e0!3m2!1sen!2sin!4v1680750707071!5m2!1sen!2sin"
+    width="100%"
+    height="250"
+    style="border:0; border-radius: 8px;"
+    allowfullscreen=""
+    loading="lazy">
+  </iframe>
+</section>
+
+
+
+  <section id="announcements">
+    <h2>📢 Announcements</h2>
+    <ul>
+      <li>Team registrations close on Friday!</li>
+      <li>Don’t miss the surprise event 😎</li>
+    </ul>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
